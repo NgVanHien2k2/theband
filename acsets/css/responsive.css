@@ -1,0 +1,121 @@
+/* display pc */
+@media (min-width: 64em) {
+
+    /* .pc {
+        display: block;
+    } */
+    #nav li:hover>.subnav {
+        display: inline;
+        /* PC */
+    }
+}
+
+/* display Tablet And MoBiLe */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-info {
+        font-size: 24px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .Social-list {
+        font-size: 35px;
+        /* padding: 15px; */
+    }
+    #footer .Social-list p {
+        font-size: 20px;
+    }
+}
+
+/* display Tablet */
+/* @media (min-width: 740px) and (max-width: 1023px) {
+    .Tablet {
+        display: block;
+    }
+} */
+/* display MB */
+@media (max-width: 46.1875em) {
+
+    .mt-8-mb {
+        margin-top: 8px !important;
+    }
+
+    .mt-16-mb {
+        margin-top: 16px !important;
+    }
+
+    .column-full-MB {
+        width: 100%;
+    }
+    /* Để over ở mb thì mới ko bị lỗi hover More */
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mb-Menu-btn {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+        /* background-color: black;
+       width: 100%; */
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+        width: 100%;
+        
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 30px;
+    }
+    
+    /*     
+    #nav .subnav li:hover a {
+        color: #fff !important;
+    } */
+
+    /* end nav */
+
+    #conten .Member-img {
+        width: 60%;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+}
+
+/*  pc: >= 1024px
+    Tablet: >= 740px & < 1024px
+    Mobeile: < 740px
+*/
